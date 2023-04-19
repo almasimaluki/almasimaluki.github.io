@@ -28,11 +28,11 @@ a:hover {
 /* Header */
 header {
 	background-color: #ffffff;
-	padding: 20px;
+	padding: 30px;
 }
 
 header h1 {
-	margin: 0;
+	margin: 20;
 	font-size: 45px;
 }
 
