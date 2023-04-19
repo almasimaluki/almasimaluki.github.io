@@ -67,27 +67,29 @@ footer {
 	text-align: center;
 
 }
-body {
-    padding: 20;
-    margin: 20;
-  }
-  
-  .gallery {
+.gallery {
     display: flex;
     flex-wrap: wrap;
-    margin: 10;
-    padding: 10;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
   }
   
   .gallery-item {
-    flex: 1 0 calc(33.33% - 0px);
-    margin: 10;
-    padding: 10;
+    flex: 0 0 calc(50% - 20px);
+    margin: 10px;
+    padding: 0;
   }
   
   .gallery-item img {
     display: block;
     width: 100%;
     height: auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .gallery-item {
+      flex: 0 0 calc(100% - 20px);
+    }
   }
   
