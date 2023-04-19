@@ -32,7 +32,8 @@ header {
 }
 
 header h1 {
-	margin: 20;
+	margin: 15;
+    margin-bottom: 50px;
 	font-size: 45px;
 }
 
