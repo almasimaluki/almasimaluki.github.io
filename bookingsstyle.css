@@ -84,7 +84,7 @@ form {
   /* Label styles */
   label {
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   
   /* Input and textarea styles */
@@ -103,9 +103,9 @@ form {
   input[type="submit"] {
     background-color: #4CAF50;
     color: white;
-    padding: 12px 20px;
+    padding: 20px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 1px;
     font-size: 16px;
     cursor: pointer;
   }
