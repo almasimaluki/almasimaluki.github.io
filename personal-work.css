@@ -1,3 +1,77 @@
+/* Body and Typography */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  font-size: 20px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 4;
+}
+
+a {
+	color: #040404;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Header */
+header {
+	background-color: #ffffff;
+	padding: 30px;
+}
+
+header h1 {
+	margin: 15;
+    margin-bottom: 50px;
+	font-size: 45px;
+}
+
+nav ul {
+	margin: 30;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	display: block;
+	padding: 5px;
+}
+
+nav a:hover {
+	background-color: #f1efef;
+}
+
+/* Main Content */
+main {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 0 20px;
+}
+
+/* Footer */
+footer {
+	background-color: #ffffff;
+	color: #000000;
+	padding: 5px;
+	text-align: center;
+}
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -21,6 +95,7 @@
   
   img {
     width: 100%;
-    height: auto;
+    height: 500px;
+    overflow: hidden;
   }
   
