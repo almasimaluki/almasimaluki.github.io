@@ -75,14 +75,14 @@ body {
   .gallery {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
   }
   
   .gallery-item {
     flex: 1 0 calc(33.33% - 0px);
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
   }
   
   .gallery-item img {
