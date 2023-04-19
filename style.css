@@ -65,17 +65,17 @@ footer {
 	color: #fff;
 	padding: 5px;
 	text-align: center;
-    
+
 }
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    margin: -10px; /* negative margin to remove space between gallery items */
+    margin:0px; /* negative margin to remove space between gallery items */
   }
   
   .gallery-item {
     flex: 1 0 calc(33.33% - 20px); /* adjust this value to change the number of columns */
-    margin: 10px; /* space between gallery items */
+    margin: 40px; /* space between gallery items */
   }
   
   .gallery-item img {
