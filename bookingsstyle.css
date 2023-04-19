@@ -73,76 +73,43 @@ footer {
 	text-align: center;
 
 }
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-  }
-  
-  header {
+/* Form wrapper */
+form {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    background-color: #fff;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1;
-  }
-  
-  nav {
-    display: flex;
-  }
-  
-  nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    margin: 0 20px;
-  }
-  
-  nav a {
-    color: #333;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  nav a:hover {
-    color: #666;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 100px auto;
-    padding: 0 40px;
-  }
-  
-  h1 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 30px;
-  }
-  
-  p {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column-reverse;
-    max-width: 600px;
+    flex-direction: column;
+    width: 80%;
     margin: 0 auto;
   }
   
+  /* Label styles */
   label {
-    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Input and textarea styles */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
     margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  /* Submit button styles */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ffffff;
   }
   
