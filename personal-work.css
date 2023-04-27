@@ -86,7 +86,7 @@ footer {
   }
   
   .column {
-    flex-basis: calc(33.33% - 10px);
+    flex-basis: calc(50.33% - 10px);
     margin-right: 10px;
   }
   
